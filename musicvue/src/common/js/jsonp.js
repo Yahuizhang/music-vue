@@ -1,4 +1,4 @@
-import axios from 'axios '
+import originJSONP from 'jsonp'
 // 对原来的jsonp进行重封装
 export default function jsonp(url, data, option) {
     url += (url.indexOf('?') < 0 ? '?' : '&') + param(data);
