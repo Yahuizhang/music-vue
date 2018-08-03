@@ -12,10 +12,7 @@ export default function jsonp(url, data, option) {
         })
     })
 }
-// axios进行重封装
-// export default function axios(url,data,option){
 
-// }
 
 
 // 对data进行处理
