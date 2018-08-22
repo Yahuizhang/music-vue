@@ -1,6 +1,6 @@
 // import jsonp from 'common/js/jsonp'
-import _http from 'common/js/axios'
-import { commonParams, paramConncet } from './config'
+// import _http from 'common/js/axios'
+// import { commonParams, paramConncet } from './config'
 
 // 获取recommend的方法
 export function getRecommoned() {
@@ -26,6 +26,6 @@ export function getRecommoned() {
     //     return getData;
     // })
 
-    return new
+    // return new
 
 }

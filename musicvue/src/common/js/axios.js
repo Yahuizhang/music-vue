@@ -8,12 +8,12 @@ const axiosConfig = {
     timeout: 1000,
     headers: {
         'Content-Type': 'application/json',
-        'x-requested-with': 'XMLHttpRequest'
+        // 'x-requested-with': 'XMLHttpRequest'
     },
     //发送数据格式化
-    // transformRequest: [function(data) {
-    //     return JSON.stringify(data);
-    // }]
+    transformRequest: [function(data) {
+        return JSON.stringify(data);
+    }]
 }
 
 
